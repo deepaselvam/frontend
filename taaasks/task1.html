@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form name="form_one" action="#">
+    <input name="pesos" type="text" /><br>
+    <input type="button" value="Enter" onclick="Modal1()" />
+</form>
+
+<p id="valid"></p>
+<script>
+function Modal1() {
+    var pesos = document.form_one.pesos.value;
+    document.getElementById("valid").innerHTML = pesos;
+}
+function WordCount(str) { 
+  return str.split(" ").length;
+}
+
+console.log(WordCount("hello world"));
+</script>
+</body>
+</html>

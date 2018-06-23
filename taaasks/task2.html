@@ -1,0 +1,18 @@
+<html>
+<script language='JavaScript'>
+
+function getwords()
+{
+textbox = document.getElementById('words');
+if (textbox.value == "")
+document.write("You entered: " + textbox.value)
+else
+alert("No word has been entered!")
+}
+
+</script>
+<input type="text" id="words" />
+<input type="button" onclick="getwords()" value="Enter" />
+
+</body>
+</html>

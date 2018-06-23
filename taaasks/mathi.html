@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	Username:
+	<input type="text" id="name"><br><br>
+	Password:
+	<input type="*" id="password"><br>
+	<button type="button" onclick="modal()">Submit</button>
+</body>
+<script type="text/javascript">
+	function getData(){
+		var modalDetails={
+			'name': $('#name').val(),
+            'password': $('#password').val(),
+		}
+	}
+function modal()
+		{
+			var modalDetails=getData();
+			if(modalDetails.name=" "||modalDetails.password=" "){
+			swal({
+				title:  'Please Fill all the form fields',
+                confirmButtonColor: '#3085d6',
+                confirmButtonText:'ok'
+
+			});
+		}
+		}
+	</script>
+</html>
