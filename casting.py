@@ -1,0 +1,6 @@
+a=int(20)
+b=int(40.5)
+c=int("66")
+print(a)
+print(b)
+print(c)

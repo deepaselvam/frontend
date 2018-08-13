@@ -1,0 +1,7 @@
+a=list(("DEEPA","MAHA","KARTHIGA"))
+print(a)
+a.append("SABEETHA")
+print(a)
+print(len(a))
+a.remove("SABEETHA")
+print(a)

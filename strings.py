@@ -1,0 +1,10 @@
+name="Deepa Kumar "
+print(name)
+print(name[3])
+print(name[1:4])
+print(name.strip())
+print(len(name))
+print(name.lower())
+print(name.upper())
+print(name.replace("a","s"))
+print(name.split(","))
